@@ -110,7 +110,7 @@ Las opciones disponibles a apostar son:
     3. "huir", que debe generar un número aleatorio, y dependiendo del resultado, la huida puede o no ser exitosa.
 Si atacamos o intentamos huir y fallamos, el monstruo debe atacarnos y reducir nuestra cantidad de vida.
 
-- Observaciones:
+Observaciones:
 
 * A cada acción del juego, debe avisarnos con un cartel lo que está pasando. Por ejemplo, "Te has quedado sin pociones", "Has encontrado una habitación vacía", "Has descansado y curado 5 HP", "El monstruo te ataca", etc.
 * Puedes jugar con los números (más o menos vida, más o menos ataque, etc) y las probabilidades de que algo ocurra (encontrarte pociones, mosntruos, poder escapar, etc)
