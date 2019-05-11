@@ -1,6 +1,30 @@
 # Desafíos bucles
 <br>
 
+## Generador de nombres opcionales
+
+- Hacer un programa que pida un usuario para registrarse
+- A continuación debe decir que ese usuario ya se encuentra registrado, y ofrecer algunas respuestas alternativas (X cantidad fija)
+- Las alternativas deben ser del formato del username_0000, es decir, el username, seguido de un guión bajo, y cuatro dígitos aleatorios del 0 al 9, por ejemplo
+    - Ingrese un usuario para registrar
+    - ada
+    - Ese usuario ya se encuentra registrado. A continuación le dejamos 
+    algunas alternativas:
+        - ada_0023
+        - ada_1934
+        - ada_8801
+        - ada_3322
+- No hace falta que vuelva a pedir por un nuevo usuario, solo tiene que mostrar las alternativas
+- Para generar un número aleatorio entre 0 y 9, hacemos:
+
+```javascript
+let digito = Math.floor(Math.Random() * 10);
+```
+
+(Es posible, pero extremadamente improbable, que pueda llegar a sugerir dos veces el mismo username, ignorar este caso)
+
+<br>
+
 ## Piedra papel o tijera
 
 - Hacer un juego de piedra papel o tijera.
@@ -15,7 +39,7 @@ y luego generar una jugada aleatoria para la computadora. Comparar las jugadas y
 let numero = Math.floor(Math.Random() * 3);
 ```
 
-* Al finalizar debe mostrar cuantas partidas se ganaron y cuántas se perdieron
+* Al finalizar debe mostrar cuántas partidas se ganaron y cuántas se perdieron
 <br>
 
 ## Generador de Hoja De Personajes de Dungeon & Dragons
