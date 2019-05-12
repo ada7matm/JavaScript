@@ -18,7 +18,7 @@
 - Para generar un número aleatorio entre 0 y 9, hacemos:
 
 ```javascript
-let digito = Math.floor(Math.Random() * 10);
+let digito = Math.floor(Math.random() * 10);
 ```
 
 (Es posible, pero extremadamente improbable, que pueda llegar a sugerir dos veces el mismo username, ignorar este caso)
@@ -36,7 +36,7 @@ y luego generar una jugada aleatoria para la computadora. Comparar las jugadas y
 * Para generar una jugada aleatoria, vamos a generar un número aleatorio entre 0 y 3. Si el número es 0, la jugada será piedra; si es 1, será tijera, y si es 2 será papel. Para generar un número aleatorio entre 0 y 3, hacemos:
 
 ```javascript
-let numero = Math.floor(Math.Random() * 3);
+let numero = Math.floor(Math.random() * 3);
 ```
 
 * Al finalizar debe mostrar cuántas partidas se ganaron y cuántas se perdieron
@@ -99,7 +99,7 @@ y el total del dinero restante
 Para generar un número aleatorio entre 1 y 36, hacemos:
 
 ```javascript
-let numero = Math.floor(1 + Math.Random() * 37);
+let numero = Math.floor(1 + Math.random() * 37);
 ```
 
 <br>
@@ -145,8 +145,8 @@ un número aleatorio del 0 al 10, si el número es menor o igual a 7, la huida e
 
 ```javascript
 // Para obtener un número aleatorio
-let numero = Math.floor(numeroMinimo + Math.Random() * (numeroMaximo + 1));
+let numero = Math.floor(numeroMinimo + Math.random() * (numeroMaximo + 1));
 
 // Numero aleatorio entre 10 y 15
-Math.floor(10 + Math.Random() * 16)
+Math.floor(10 + Math.random() * 16)
 ```
